@@ -44,13 +44,16 @@ export const ContentContainer = styled.div`
   height: 90px;
   padding: 0 25px;
   display: flex;
-  flex-direction: column;
+  flex-direction: colu;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  @media screen and (max-width: 800px) {
+    width: 80px;
+  }
 `;
 
 export const ContentTitle = styled.span`
